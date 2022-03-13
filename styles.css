@@ -1,0 +1,65 @@
+:root {
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: Outfit, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 21.875rem;
+  height: 37.25rem;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+.card p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+}
+
+.image {
+  width: 18.8125rem;
+  height: 18.875rem;
+  border-radius: 15px;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.subtext {
+  color: var(--grayish-blue);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
